@@ -1,0 +1,139 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+  font-weight: 100;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Blog Title */
+.main-title {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+
+}
+
+.sub-title {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+
+
+.red {
+  color: red;
+}
+
+/* Top Navigation */
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.top-nav a {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  color: #8d8d8d;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+/* Blog Entry */
+.blog-entry {
+  margin-bottom: 10px;
+}
+
+.entry-date {
+  font-size: 1.9rem;
+  font-weight: 300;
+  margin-bottom: 0px;
+  color:#8d8d8d;
+}
+
+.entry-title {
+  font-size: 3.4rem;
+  font-weight: 300;
+  margin-top: 20p
+  margin-bottom: 0px;
+}
+
+.entry-image {
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.entry-content {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.8;
+  text-align: left;
+  position: relative;
+}
+
+.drop-cap {
+  float: left;
+  font-size: 10rem;
+  line-height: 1;
+  padding-right: 10px;
+  font-weight: 300;
+  height: .8em;
+  margin-top: -5px;
+  color: #777;
+}
+
+.entry-continues {
+  font-size: 1.4rem;
+  font-weight: 500; /* slightly heavier than the rest? */
+  color: red;
+  margin-top: 20px;
+  text-align: right;
+}
+
+/* Footer */
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: red; 
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #ccc; /* light grey */
+  margin: 60px 0;
+}
+
+.footer-copy {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 1.2rem;
+  color: grey;
+  text-align: left;
+}
+
+
+.spacer-50 {
+  height: 50px;
+}
+
